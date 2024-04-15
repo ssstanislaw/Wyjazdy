@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#logo{
+    background-color: rgb(63, 72, 204);
+    width: 10%;
+    height: 100px;
+    float: left;
+    color: rgb(245, 219, 52);
+}
+
+
+#menu{
+    background-color: rgb(63, 72, 204);
+    width: 80%;
+    height: 100px;
+    float: left;
+    text-align: left;
+    color: rgb(245, 219, 52);
+}
+
+.lang-button{
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(245, 219, 52);
+    color: rgb(63, 72, 204);
+    font-weight: 600;
+    padding: 5px;
+}
+
+.lang-button:hover{
+    background-color: rgb(195, 175, 41);
+}
+
+#searcher{
+    width: 80%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#search-button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#search{
+    background-color: rgb(63, 72, 204);
+    width: 10%;
+    height: 100px;
+    float: left;
+    color: rgb(245, 219, 52);
+}
+
+
+#side-menu{
+    width: 2%;
+    float: left;
+    background-color: rgb(208, 209, 220);
+    height: 1900px;
+}
+
+
+#main{
+    float: right;
+    width: 98%;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    color: rgb(245, 219, 52);
+}
+
+#info{
+    background-color: rgb(63, 72, 204);
+    height: 30px;
+}
+
+
+.side-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 219, 52);
+    border: 0;
+}
+
+.side-button:hover{
+    background-color: rgb(195, 175, 41);
+}
+
+.sideb{
+    margin-top: 50px;
+    
+}
+
+#about{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    margin: 2%;
+}
+
+#planes{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    margin: 2%;
+}
+
+#offers{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    margin: 2%;
+}
+
+#sights{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    margin: 2%;
+}
+
+#form{
+    width: 98%;
+    height: auto;
+    background-color: white;
+    text-align: left;
+    margin: 2%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#button-menu{
+    height: auto;
+    position: fixed;
+    width: 2%;
+}
+
+
+
+
+
+
+h2{
+    font-size: 110%;
+}
+
+p{
+    font-size: 100%;
+}
+
+h1{
+    font-size: 200%;
+}
+
+#form form{
+    width: 350px;
+    text-align: right;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+#form form p{
+    text-align: center;
+    
+}
+
+
+.plane-img{
+    width: 500px;
+    height: 280px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.views-img{
+    width: 500px;
+    height: 280px;
+    border: 2px solid black;
+    margin: 10px;
+}
